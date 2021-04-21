@@ -14,4 +14,3 @@
   to = "https://indistaan.com/:id"
   status = 301
   force = true
-  query = {path = ":path"} 
