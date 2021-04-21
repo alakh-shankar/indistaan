@@ -4,5 +4,5 @@ import "./css/main.css";
 
 // Say hello
 console.log("🦊 Hello! Edit me in src/index.js");
-
-location.href='google.com';
+console.log(location);
+//location.href='https://indistaan.com/';
