@@ -10,7 +10,7 @@
   command = "yarn build:preview"
 
 [[redirects]]
-  from = "/store?id=*"
+  from = "/?id=*"
   to = "https://indistaan.com/:id"
   status = 301
   force = true
