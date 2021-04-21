@@ -11,7 +11,7 @@
 
 [[redirects]]
   from = "/store?id=*"
-  to = "https://indistaan.com/" :id
+  to = "https://indistaan.com/:id"
   status = 301
   force = true
   query = {path = ":path"} 
