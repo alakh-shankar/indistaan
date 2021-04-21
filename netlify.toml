@@ -10,7 +10,8 @@
   command = "yarn build:preview"
 
 [[redirects]]
-  from = "https://indistaan.netlify.app"
-  to = "https://indistaan.com"
+  from = "/store?id=*"
+  to = "https://indistaan.com/" :id
   status = 301
   force = true
+  query = {path = ":path"} 
