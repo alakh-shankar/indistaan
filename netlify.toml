@@ -8,3 +8,9 @@
 
 [context.deploy-preview]
   command = "yarn build:preview"
+
+[[redirects]]
+  from = "https://indistaan.netlify.app"
+  to = "https://indistaan.com"
+  status = 301
+  force = true
